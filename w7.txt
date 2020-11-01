@@ -1,0 +1,8 @@
+import math
+
+magic_number = 3
+
+magic_number = (magic_number**(magic_number % magic_number))*333
+
+print(magic_number)
+
